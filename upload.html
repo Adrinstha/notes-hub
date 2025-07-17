@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Notes</title>
+</head>
+<body>
+  <h2>Upload Your Notes</h2>
+  <form id="uploadForm">
+    <label>Subject: <input type="text" id="subject" required></label><br>
+    <label>Semester: <input type="text" id="semester" required></label><br>
+    <label>Your Name: <input type="text" id="uploader" required></label><br>
+    <label>Upload PDF: <input type="file" id="fileInput" accept=".pdf" required></label><br><br>
+    <button type="submit">Upload</button>
+  </form>
+
+  <script src="firebase.js"></script>
+</body>
+</html>
